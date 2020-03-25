@@ -16,7 +16,6 @@ class MiniMaxSum {
         var sumNoMax = sumAll - max
         var sumNoMin = sumAll - min
 
-        val resArray = intArrayOf(sumNoMax,sumNoMin)
-        return resArray
+        return intArrayOf(sumNoMax,sumNoMin)
     }
 }
